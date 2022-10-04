@@ -34,5 +34,7 @@ public class Ejercicio2 {
 
         // ^ Cerramos el Scanner
         read.close();
+
+        // € Hecho por Antonio Navarro
     }
 }

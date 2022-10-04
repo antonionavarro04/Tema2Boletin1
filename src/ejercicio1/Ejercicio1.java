@@ -6,10 +6,10 @@ import java.util.Locale;
 
 public class Ejercicio1 {
     public static void main(String[] args) {
-        // ! Creamos la Variable num la cual es la que va a almacenar el valor que introduzca el usuario
+        // ^ Creamos la Variable num la cual es la que va a almacenar el valor que introduzca el usuario
         long num;
         
-        // ! Creamos el Scanner y se lo asignamos a la Variable 'read'
+        // ^ Creamos el Scanner y se lo asignamos a la Variable 'read'
         final Scanner read = new Scanner(System.in);
         read.useLocale(Locale.US);
 
@@ -32,8 +32,10 @@ public class Ejercicio1 {
             System.out.println("Tu numero es Impar");
         }
 
-        // ! Cerramos el Scanner
+        // ^ Cerramos el Scanner
         read.close();
+
+        // € Hecho por Antonio Navarro
     }
     
 }

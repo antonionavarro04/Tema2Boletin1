@@ -21,6 +21,9 @@ public class Ejercicio5 {
         System.out.print("Introduce el tercer número: ");
         num3 = read.nextDouble();
 
+        // ? Salto de linea bonito
+        System.out.println();System.out.println("---------------------------------------------");System.out.println();
+
         // ! Comprobamos mediante una estructura de if el orden en el que hay que ordenar los numeros
         System.out.println("Los números ordenados de mayor a menor son: ");
         if (num1 > num2){
@@ -43,5 +46,7 @@ public class Ejercicio5 {
         
         // ^ Cerramos el Scanner
         read.close();
+
+        // € Hecho por Antonio Navarro
     }
 }
