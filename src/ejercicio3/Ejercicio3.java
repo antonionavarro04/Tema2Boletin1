@@ -17,6 +17,9 @@ public class Ejercicio3 {
         System.out.print("Introduce un numero, puede contener decimales: ");
         num = read.nextDouble();
 
+        // ? Salto de linea bonito
+        System.out.println();System.out.println("---------------------------------------------");System.out.println();
+
         // ! Comprobamos mediante un if si nuestro numero esta entre -1 y 1
         if (num != 0 && num > -1 && num < 1){
             System.out.println(num + " es un numero casi 0");

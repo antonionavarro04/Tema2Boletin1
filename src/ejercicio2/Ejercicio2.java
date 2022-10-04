@@ -20,6 +20,9 @@ public class Ejercicio2 {
         System.out.print("Introduce otro número: ");
         num2 = read.nextDouble();
 
+        // ? Salto de linea bonito
+        System.out.println();System.out.println("---------------------------------------------");System.out.println();
+
         // ! Comprobamos mediante un if si son iguales los numeros e imprimimos el resultado por pantalla
         if (num1 == num2){
             System.out.println(num1 + " y " + num2 + " son iguales");

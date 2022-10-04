@@ -17,6 +17,9 @@ public class Ejercicio1 {
         System.out.print("Introduce un número: ");
         num = read.nextLong();
 
+        // ? Salto de linea bonito
+        System.out.println();System.out.println("---------------------------------------------");System.out.println();
+
         // ! Calculamos el resto del numero introducido dividido entre 2
         num %= 2;
 
