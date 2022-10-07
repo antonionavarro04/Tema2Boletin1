@@ -25,9 +25,7 @@ public class Ejercicio4 {
         // ! Comprobamos si el num1 es menor que el num2, de ser asi los numeros se imprimirian de esta forma(num1 + num2), en caso contrario se imprimirian al revés
         if (num1 <= num2){
             System.out.println(num1 + ", " + num2);
-        }
-
-        else {
+        } else {
             System.out.println(num2 + ", " + num1);
         }
         

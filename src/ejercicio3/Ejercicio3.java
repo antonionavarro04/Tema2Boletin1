@@ -23,9 +23,7 @@ public class Ejercicio3 {
         // ! Comprobamos mediante un if si nuestro numero esta entre -1 y 1
         if (num != 0 && num > -1 && num < 1){
             System.out.println(num + " es un numero casi 0");
-        }
-
-        else{
+        } else{
             System.out.println(num + " no es un numero casi 0");
         }
 

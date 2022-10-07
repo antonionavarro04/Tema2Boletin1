@@ -26,9 +26,7 @@ public class Ejercicio1 {
         // ! Si nuestro numero es 0 el numero introducido va a ser par, ya que cualquier numero par dividido entre 2 da de resto 0, por lo cual nuesto numero es par. En caso contrario nuestro numero sería impar
         if (num == 0){
             System.out.println("Tu número es Par");
-        }
-
-        else{
+        } else{
             System.out.println("Tu numero es Impar");
         }
 

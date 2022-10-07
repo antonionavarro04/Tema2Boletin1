@@ -26,9 +26,7 @@ public class Ejercicio2 {
         // ! Comprobamos mediante un if si son iguales los numeros e imprimimos el resultado por pantalla
         if (num1 == num2){
             System.out.println(num1 + " y " + num2 + " son iguales");
-        }
-
-        else{
+        } else{
             System.out.println(num1 + " y " + num2 + " son diferentes");
         }
 
