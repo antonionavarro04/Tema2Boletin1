@@ -9,8 +9,8 @@ public class Ejercicio1 {
         // ? Programa el cual nos va a comprobar si el numero que introducimos es par o impar.
         // ^ Creamos la Variable num la cual es la que va a almacenar el valor que introduzca el usuario
         long num;
-        
-        // ^ Creamos el Scanner y se lo asignamos a la Variable 'read'
+
+        // ^ Creamos el Scanner, se lo asignamos a la variable read y cambiamos su formato al de US
         final Scanner read = new Scanner(System.in);
         read.useLocale(Locale.US);
 
@@ -24,7 +24,7 @@ public class Ejercicio1 {
         // ! Calculamos el resto del numero introducido dividido entre 2
         num %= 2;
 
-        // ! Si nuestro numero es 0 el numero introducido va a ser par, ya que cualquier numero par dividido entre 2 da de resto 0, por lo cual nuesto numero es par. En caso contrario nuestro numero sería impar
+        // ! Si nuestro numero es 0 el numero introducido va a ser par, ya que cualquier numero par dividido entre 2 da de resto 0, por lo cual nuesto numero es par. En caso contrario nuestro numero sería impar, esto lo comprobaremos mediante una estructura if
         if (num == 0){
             System.out.println("Tu número es Par");
         } else{
