@@ -7,7 +7,7 @@ import java.util.Locale;
 public class Ejercicio5 {
     public static void main(String[] args) {
         // ? Programa el cual introduciendole tres valores nos lo va a ordenar de mayor a menor.
-        // ^ Creamos 3 variables; num1, num2 y num3 las cuales van a ser ordenadas de menor a mayor una vez el usuario introduzca sus valores
+        // ^ Creamos 3 variables; num1, num2 y num3 las cuales van a ser ordenadas de mayor a menor una vez el usuario introduzca sus valores
         double num1, num2, num3;
 
         // ^ Creamos el Scanner, se lo asignamos a la variable read y cambiamos su formato al de US
