@@ -6,6 +6,7 @@ import java.util.Locale;
 
 public class Ejercicio1 {
     public static void main(String[] args) {
+        // ? Programa el cual nos va a comprobar si el numero que introducimos es par o impar.
         // ^ Creamos la Variable num la cual es la que va a almacenar el valor que introduzca el usuario
         long num;
         

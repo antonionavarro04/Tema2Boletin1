@@ -6,6 +6,7 @@ import java.util.Locale;
 
 public class Ejercicio7 {
     public static void main(String[] args) {
+        // ? Programa el cual nos va a decir si nuestro numero tiene 1, 2, 3, 3 o 5 cifras.
         // ^ Creamos una variable para almacenar el numero introducido por el usuario
         int num;
 

@@ -6,6 +6,7 @@ import java.util.Locale;
 
 public class Ejercicio2 {
     public static void main(String[] args) {
+        // ? Programa el cual nos va a comprobar si dos numeros que hayamos introducido son iguales o no.
         // ^ Creamos dos Variables, una para el primer numero introducido y otra para el segundo
         double num1, num2;
 

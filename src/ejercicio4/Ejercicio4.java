@@ -6,6 +6,7 @@ import java.util.Locale;
 
 public class Ejercicio4 {
     public static void main(String[] args) {
+        // ? Programa el cual nos va a ordenar dos numeros introducidos de menor a mayor
         // ^ Creamos dos variables, num1 y num2 las cuales van a ser ordenadas de menor a mayor una vez el usuario introduzca sus valores
         double num1, num2;
 

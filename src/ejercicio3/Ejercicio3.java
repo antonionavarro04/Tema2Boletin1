@@ -6,6 +6,7 @@ import java.util.Locale;
 
 public class Ejercicio3 {
     public static void main(String[] args) {
+        // ? Programa el cual nos va a decir si un numero es casi 0 o no
         // ^ Creamos la variable num la cual es la que va a ser comprobada si es un numero casi 0 o no
         double num;
 

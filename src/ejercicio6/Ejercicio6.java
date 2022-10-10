@@ -6,6 +6,7 @@ import java.util.Locale;
 
 public class Ejercicio6 {
     public static void main(String[] args) {
+        // ? Programa el cual nos va a calcular la raiz de segundo grado, tambien nos va a decir si tiene solucion o no.
         // ^ Creamos 3 variables; a, b y c las cuales van a ser usadas para hallar x y posteriormente resolver la ecuacion de segundo grado
        long a, b, c;
        double x1 = 0, x2 = 0, sqrt = 0;

@@ -6,6 +6,7 @@ import java.util.Locale;
 
 public class Ejercicio10 {
     public static void main(String[] args) {
+        // ? Programa el cual nos diga si la suma de dos de los numeros introducidos da como resultado el otro número, solo se introducieran 3 numeros
         // ^ Creamos 3 variables; a, b y c las cuales van a servir para calcular si alguno de esos numeros es la suma de otro
         double num1, num2, num3;
 

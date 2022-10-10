@@ -6,6 +6,7 @@ import java.util.Locale;
 
 public class Ejercicio9 {
     public static void main(String[] args) {
+        // ? Juego piedra papel o tijera, los dos jugadores introduciran un numero del 1 al 3, si el numero es 1 es piedra, 2 papel y 3 tijera.
         // ^ Creamos las variables para los dos jugadores
         byte p1, p2;
 

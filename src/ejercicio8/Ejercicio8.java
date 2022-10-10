@@ -6,6 +6,7 @@ import java.util.Locale;
 
 public class Ejercicio8 {
     public static void main(String[] args) {
+        // ? Programa JAVA el cual nos va a decir si nuestra nota es INSUFICIENTE, SUFICIENTE, BIEN, NOTABLE o SOBRESALIENTE.
         // ^ Creamos la variable nota la cual va a servir para comprobar su nota
         float nota;
 
