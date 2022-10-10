@@ -4,10 +4,9 @@ package ejercicio9;
 import java.util.Scanner;
 import java.util.Locale;
 
-public class Ejercicio9CompressedIf {
+public class Ejercicio9Original {
     public static void main(String[] args) {
         // ? Juego piedra papel o tijera, los dos jugadores introduciran un numero del 1 al 3, si el numero es 1 es piedra, 2 papel y 3 tijera.
-        // ? La version más comprimida de todas, pero no la más eficiente a mi gusto
         // ^ Creamos las variables para los dos jugadores
         byte p1, p2;
 
@@ -31,13 +30,23 @@ public class Ejercicio9CompressedIf {
         // ? Salto de linea bonito
         System.out.println();System.out.println("---------------------------------------------");System.out.println();
 
-        // ! Comprobamos el ganador mediante una estructura if, lo vamos a meter todo en un else if practicamente
+        // ! Comprobamos el ganador mediante una estructura if
         if (p1 == p2){
             System.out.println("Empate");
-        } else if (p1 == PIEDRA && p2 == TIJERA || p1 == PAPEL && p2 == PIEDRA || p1 == TIJERA && p2 == PAPEL){
+        } else if (p1 == PIEDRA && p2 == TIJERA){
             System.out.println("Gana el Jugador 1");
-        } else {
+        } else if (p1 == PAPEL && p2 == PIEDRA){
+            System.out.println("Gana el Jugador 1");
+        } else if (p1 == TIJERA && p2 == PAPEL){
+            System.out.println("Gana el Jugador 1");
+        } else if (p1 == PIEDRA && p2 == PAPEL){
             System.out.println("Gana el Jugador 2");
+        } else if (p1 == PAPEL && p2 == TIJERA){
+            System.out.println("Gana el Jugador 2");
+        } else if (p1 == TIJERA && p2 == PIEDRA){
+            System.out.println("Gana el Jugador 2");
+        } else{
+            System.out.println("Alguno de los dos jugadores no ha introducido una jugada valida");
         }
 
         // ^ Cerramos el Scanner
