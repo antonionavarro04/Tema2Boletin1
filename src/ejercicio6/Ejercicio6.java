@@ -29,8 +29,14 @@ public class Ejercicio6 {
         // ! Comprobamos mediante una estructura de if si la ecuacion tiene solucion o no
         // ? En caso de que 'a' sea 0 la ecuacion ya directamente no va a tener solucion, ya que cualquier numero dividido entre 0 no se puede calcular
         if (a == 0){
-            System.out.println("La ecuacion no tiene solución Real");
-            System.out.println("Motivo: a = 0, no se puede dividir entre 0");
+            System.out.println("a = 0. Por lo que la ecuacion pasa a ser de primer grado, solo tendrá una solucion.");
+            System.out.println("La ecuación queda como: " + b + "x + " + c + " = 0");
+            x1 = -c / b;
+            
+            // ? Salto de Linea bonito
+            System.out.println();System.out.println("---------------------------------------------");System.out.println();
+
+            System.out.println("La solucion es: x = " + x1);
         } else{
             sqrt = Math.pow(b, 2) - (4 * a * c);
             if (sqrt < 0){
